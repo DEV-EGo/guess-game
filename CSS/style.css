@@ -1,0 +1,35 @@
+body{
+    color: chocolate;
+    background-color: #4a4a4a;
+}
+#h1{
+    font-family: fantasy;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+}
+#all{
+    text-align: center;
+}
+#para{
+    font-family: times serif;
+    font-style: oblique;
+    font-size: 25px;
+}
+#h2{
+    font-family: cursive;
+    font-size: 30px;
+    font-style: normal;
+    text-align: 2px 2px 1px black;
+}
+#output{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button{
+    cursor:pointer;
+    border-radius: 10px;
+    background-color: #34aeb4;
+}
