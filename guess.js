@@ -8,15 +8,14 @@ var winner = false;
 var input1 = document.querySelector("#ipbox");
 var output1 = document.querySelector("#output");
 
-var btn = document.querySelector("button");
+var btn = document.getElementById("edwin_button");
 
-btn.addEventListener("click", onMouseClick);
 
 function onMouseClick(){
    guess = parseInt(input1.value);
    guessRemaining--;
    guessMade++;
-   gameStatus = "you have " +guessRemaining+"guesses remaining and you have made "+guessmade+"guess(es)only";
+   gameStatus = "you have " + guessRemaining + "guesses remaining and you have made " + guessmade + "guess(es)only";
 
    if (guess > computer){
        output1.innerHTML = "your guess is bigger than the computer thinks"+gameStatus;
